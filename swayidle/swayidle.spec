@@ -1,6 +1,6 @@
 Name: swayidle
 Version: 1.2
-Release: 2%{?dist}
+Release: 3%{?dist}
 Summary: An idle daemon for wayland compositors
 
 License: MIT
@@ -47,9 +47,11 @@ swayidle is an idle management daemon for Wayland compositors.
 %{_mandir}/man1/%{name}.1.gz
 
 %changelog
-* Fri Mar 15 2019 Jack Hildebrandt <jack@jackhil.de> - 1.2-1
-- Initial packaging
+* Mon Mar 18 2019 Jack Hildebrandt <jack@jackhil.de> - 1.2-3
+- Flip changelog
 * Fri Mar 15 2019 Jack Hildebrandt <jack@jackhil.de> - 1.2-2
 - Fix directory ownership
 - Clean up spec file
+* Fri Mar 15 2019 Jack Hildebrandt <jack@jackhil.de> - 1.2-1
+- Initial packaging
 
